@@ -1,43 +1,17 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# Tout ignorer sauf le fichier .gitignore
+*
+!.gitignore
 
-# Folder config file
-Desktop.ini
+# Garder le plugin Package Control uniquement
+!Installed Packages
+Installed Packages/*
+!Installed Packages/Package Control.sublime-package
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Garder les raccourcis clavier, les préférences et les builds
+!Packages
+Packages/*
+!Packages/User
+Packages/User/*
+!Packages/User/*.sublime-keymap
+!Packages/User/*.sublime-settings
+!Packages/User/*.sublime-build
